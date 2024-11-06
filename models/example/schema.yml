@@ -1,13 +1,13 @@
 version: 2
 
 models:
-  - name: my_first_dbt_model
+  - name: dbt_sfdc_test
     description: "A starter dbt model"
     quoting:
       database: true
       schema: true
     database: "VICTOR_HUSKEY"
-    schema: "Admin"
+    schema: "DBT"
     
 sources:
   - name: raw_matillion_salesforce
