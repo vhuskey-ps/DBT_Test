@@ -8,3 +8,9 @@ models:
       schema: true
     database: "VICTOR_HUSKEY"
     schema: "ADMIN"
+    
+sources:
+  - name: raw_matillion_salesforce
+    schema: raw_matillion_salesforce  # Ensure this matches the schema in Snowflake
+    tables:
+      - name: program_c
