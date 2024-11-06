@@ -7,12 +7,4 @@ models:
       database: true
       schema: true
     database: "VICTOR_HUSKEY"
-    schema: "CUSTOMERS_DATA"
-
-  - name: my_second_dbt_model
-    description: "A starter dbt model"
-    quoting:
-      database: true
-      schema: true
-    database: "VICTOR_HUSKEY"
-    schema: "CUSTOMERS_DATA"
+    schema: "ADMIN"
