@@ -1,5 +1,5 @@
 {{ config(
-    schema='stage'  -- Replace with your desired schema name
+    schema='DBT'  -- Replace with your desired schema name
 ) }}
 
 with raw_matillion_program as (
