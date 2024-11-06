@@ -1,4 +1,6 @@
-{{ config( schema='stage' ) }}
+{{ config(
+    schema='stage'  -- Replace with your desired schema name
+) }}
 
 with raw_matillion_program as (
     select * from {{ source('raw_matillion_salesforce', 'program_c') }}
