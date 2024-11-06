@@ -1,4 +1,4 @@
-{{ config(schema='${DBT_SCHEMA}') }}
+{{ config(schema='Admin') }}
 
 with source_data as (
     select * FROM CUSTOMERS
