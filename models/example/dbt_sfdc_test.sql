@@ -1,7 +1,3 @@
-{{ config(
-    schema='DBT'
-) }}
-
 with raw_matillion_program as (
     select * from {{ source('raw_matillion_salesforce', 'program_c') }}
 ),
