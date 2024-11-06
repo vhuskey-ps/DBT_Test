@@ -1,5 +1,5 @@
 {{ config(
-    schema='DBT'  -- Replace with your desired schema name
+    schema='DBT'
 ) }}
 
 with raw_matillion_program as (
