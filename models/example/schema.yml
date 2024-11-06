@@ -7,7 +7,7 @@ models:
       database: true
       schema: true
     database: "VICTOR_HUSKEY"
-    schema: "ADMIN"
+    schema: "Admin"
     
 sources:
   - name: raw_matillion_salesforce
