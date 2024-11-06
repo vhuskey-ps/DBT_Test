@@ -1,4 +1,4 @@
-{{ config(materialized='table') }}
+{{ config(schema='Admin') }}
 
 with source_data as (
     select * FROM CUSTOMERS
